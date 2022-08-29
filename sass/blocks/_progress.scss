@@ -1,0 +1,48 @@
+.progress {
+    background-color: $main-color;
+    margin-bottom: 20px;
+    &__title {
+        display: none;
+    }
+    &__wrapper {
+        min-height: 200px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__item {
+        color: $fifth-color;
+        padding: 0 10px;
+        width: 236px;
+    }
+    &__item-header {
+        font-size: calc(40px + (42 - 40) * ((100vw - 320px) / (950 - 320)));
+	    line-height: 150%;
+        text-align: center;
+    }
+    &__item-descr {
+        text-align: center;
+        font-size: calc(20px + (22 - 20) * ((100vw - 320px) / (950 - 320)));
+	    line-height: 150%;
+    }
+    &__devider {
+        width: 2px;
+        height: 70px;
+        background-color: #ffffff;
+    }
+}
+
+@media (max-width:992px){
+    .progress {
+        padding: 40px 0;
+        &__wrapper {
+        flex-direction: column;
+        }
+        &__devider {
+            margin: 20px 0;
+            width: 70%;
+            height: 3px;
+        }
+    }
+}

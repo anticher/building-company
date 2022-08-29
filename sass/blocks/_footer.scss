@@ -1,0 +1,11 @@
+.footer {
+    padding-top: 50px;
+    min-height: 100px;
+    background-color: #ffffff;
+    color: $second-color;
+    &__copyright {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+}

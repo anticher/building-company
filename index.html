@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ДЮВР-ЭЛЕКТРО - проектирование, установка и обслуживание инженерных систем</title>
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reboot.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <a href="#anchor-promo" class="header__logo">
+                    <img src="./icons/duvr.png" alt="" class="header__logo">
+                </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__wrapper">
+                    <div class="header__phone"><a href="tel:+375173773727">8(017) 377-37-27</a></div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a href="#anchor-promo" class="header__link">Главная</a>
+                            </li>
+                            <li>
+                                <a href="#anchor-services" class="header__link">Услуги</a>
+                            </li>
+                            <li>
+                                <a href="#anchor-about" class="header__link">О нас</a>
+                            </li>
+                            <li>
+                                <a href="#anchor-projects" class="header__link">Проекты</a>
+                            </li>
+                            <li>
+                                <a href="#anchor-reviews" class="header__link">Отзывы</a>
+                            </li>
+                            <li>
+                                <a href="#anchor-clients" class="header__link">Клиенты</a>
+                            </li>
+                            <li>
+                                <a href="#anchor-contacts" class="header__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <p id="anchor-promo"></p>
+    <section class="promo" id="promo">
+        <div class="container">
+            <div class="promo__wrapper">
+                <div class="promo__descr">
+                    <h1 class="promo__h1">Лидеры в области качественного строительства ОПС и СКС</h1>
+                </div>
+                <div  class="promo__down" >
+                    <a href="#anchor-services">
+                        <img class="promo__downArrow" src="./icons/downarrow.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <p id="anchor-services"></p>
+            <h2 class="services__title title">Услуги</h2>
+            <div class="services__separator separator"></div>
+            <div class="services__wrapper">
+                <div class="services__item">
+                    <div class="services__item-image-wrapper">
+                        <img class="services__item-image" src="./img/image/service-icon1-min.jpg" alt="услуга1">
+                    </div>
+                    <div class="services__item-header">
+                        Планирование и проектирование
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-image-wrapper">
+                        <img class="services__item-image" src="./img/image/service-icon2-min.jpg" alt="услуга2">
+                    </div>
+                    <div class="services__item-header">
+                        Монтаж и наладка
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-image-wrapper">
+                        <img class="services__item-image" src="./img/image/service-icon3-min.jpg" alt="услуга3">
+                    </div>
+                    <div class="services__item-header">
+                        Техническое обслуживание
+                    </div>
+                </div>
+            </div>
+            <div class="services__descr">
+                <div>
+                    <ul class="services__list">
+                        <li>Систем автоматической пожарной сигнализации</li>
+                        <li>Систем автоматического пожаротушения</li>
+                        <li>Систем оповещения о пожаре и управления эвакуацией</li>
+                        <li>Систем противодымной защиты</li>
+                        <li>Охранных сигнализаций</li>
+                        <li>Средств и систем охраны</li>
+                        <li>Систем видеонаблюдения</li>
+                        <li>Систем контроля доступа</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="services__list">
+                        <li>Систем и сетей диспетчерской связи</li>
+                        <li>Наружных и внутренних сетей связи</li>
+                        <li>Локальных вычислительных сетей</li>
+                        <li>Слаботочных сетей и систем</li>
+                        <li>Пассивных оптических сетей</li>
+                        <li>Сетей электроснабжения</li>
+                        <li>Внутренних инженерных систем зданий и сооружений</li>
+                        <li>Земляных и подготовительных работ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <p id="anchor-about"></p>
+            <div class="about__wrapper">
+                <div class="about__descr-wrapper">
+                    <h2 class="about__title title">О нас</h2>
+                    <div class="about__separator separator"></div>
+                    <div class="about__descr">
+                        <p class="about__text _anim-items _anim-no-hide"><span>Компания «ДЮВР-ЭЛЕКТРО»</span> основана в 2008 году специалистами в области систем безопасности. Мы предлагаем <span>полный комплекс работ</span> по построению инженерных систем различного масштаба: от консультации и проектирования до пусконаладочных работ и последующего обслуживания.</p>
+                        <p class="about__text _anim-items _anim-no-hide"><span>14 лет работы на белорусском рынке</span> позволили нам создать широкую сеть партнёров и поставщиков.
+                        Длительное сотрудничество позволило нам убедиться в их надёжности, что положительно влияет на наших клиентов за счёт высокого качества проводимых работ, оптимальной стоимости и строгого соблюдения сроков.</p>
+                        <p class="about__text _anim-items _anim-no-hide">Особое внимание в компании ООО «ДЮВР-ЭЛЕКТРО» уделяется подбору персонала. У нас работают <span>высококвалифицированные специалисты</span> с богатым опытом. Мы ценим индивидуальные особенности каждого сотрудника и делаем всё для максимального раскрытия его потенциала.</p>
+                        <p class="about__text _anim-items _anim-no-hide"><span>Весь наш коллектив объединён общей целью – активное развитие предприятия за счёт предоставления лучших услуг на рынке.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about__image-wrapper">
+        </div>
+    </section>
+    <section class="progress" id="progress">
+        <div class="container">
+            <p id="anchor-progress"></p>
+            <h2 class="progress__title title">Прогресс</h2>
+            <div class="progress__wrapper">
+                <div class="progress__item">
+                    <div class="progress__item-header">2008</div>
+                    <div class="progress__item-descr">Год<br>основания</div>
+                </div>
+                <div class="progress__devider"></div>
+                <div class="progress__item">
+                    <div class="progress__item-header">99</div>
+                    <div class="progress__item-descr">Завершенных<br>проектов</div>
+                </div>
+                <div class="progress__devider"></div>
+                <div class="progress__item">
+                    <div class="progress__item-header">199</div>
+                    <div class="progress__item-descr">Строительных<br>подрядов</div>
+                </div>
+                <div class="progress__devider"></div>
+                <div class="progress__item">
+                    <div class="progress__item-header">29</div>
+                    <div class="progress__item-descr">Лицензий и<br>сертификатов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="container">
+            <p id="anchor-projects"></p>
+            <h2 class="projects_title title">Проекты</h2>
+            <div class="projects__separator separator"></div>
+            <div class="projects__wrapper">
+                <div class="projects__slider">
+                    <div class="projects__slide"><div><img src="./img/projects/rivera-min.jpg" alt=""></div>
+                        <p>ООО «Ривьера Сервис»</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/levada-min.jpg" alt=""></div>
+                        <p>ЖК «Левада»</p>  
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/petrovshina-min.jpg" alt=""></div>
+                        <p>ЖК «Петровщина»</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/navigator-min.jpg" alt=""></div>
+                        <p>БЦ «НАВИГАТОР»</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/belgee-min.jpg" alt=""></div>
+                        <p>Завод «Бел Джи»</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/dune-min.jpg" alt=""></div>
+                        <p>Жилой дом «Дюна»</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/ecomarket-min.jpg" alt=""></div>
+                        <p>Экорынок в Валерьяново</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/lexus-min.jpg" alt=""></div>
+                        <p>Дилерский центр «Лексус»</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/liberty-min.jpg" alt=""></div>
+                        <p>Liberty Residence</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/magnit-min.jpg" alt=""></div>
+                        <p>ТЦ «Магнит»</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/monastyr-min.jpg" alt=""></div>
+                        <p>Свято-Елисаветинский монастырь</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/port-min.jpg" alt=""></div>
+                        <p>БЦ «Порт»</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/reconstructionbank-min.jpg" alt=""></div>
+                        <p>Банк Реконструкции и Развития РБ</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/wheel-min.jpg" alt=""></div>
+                        <p>БНБК</p>
+                    </div>
+                    <div class="projects__slide"><div><img data-src="./img/projects/toyota-min.jpg" alt=""></div>
+                        <p>Дилерский центр «Toyota»</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <p id="anchor-reviews"></p>
+            <h2 class="reviews__title title">лицензии и отзывы</h2>
+            <div class="reviews__separator separator"></div>
+            <div class="reviews__row">
+                <div class="reviews__column">
+                    <div class="reviews__slider">
+                        <div class="reviews__item">
+                            <a href="./img/certificates/lic_mvd_1_big.jpg" data-fancybox>
+                                <img src="./img/certificates/lic_mvd_1_big.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/certificates/lic_mvd_1_big.jpg" data-fancybox>
+                                <img data-src="./img/certificates/lic_mvd_1_big.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/certificates/lic_mvd_1_big.jpg" data-fancybox>
+                                <img data-src="./img/certificates/lic_mvd_1_big.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/certificates/lic_mvd_1_big.jpg" data-fancybox>
+                                <img data-src="./img/certificates/lic_mvd_1_big.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/certificates/lic_mvd_1_big.jpg" data-fancybox>
+                                <img data-src="./img/certificates/lic_mvd_1_big.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/certificates/lic_mvd_1_big.jpg" data-fancybox>
+                                <img data-src="./img/certificates/lic_mvd_1_big.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/certificates/lic_mvd_1_big.jpg" data-fancybox>
+                                <img data-src="./img/certificates/lic_mvd_1_big.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__column">
+                    <div class="reviews__slider">
+                        <div class="reviews__item">
+                            <a href="./img/reviews/iron1-min.png" data-fancybox>
+                            <img src="./img/reviews/iron1-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/iron2-min.png" data-fancybox>
+                                <img data-src="./img/reviews/iron2-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/aresa-min.png" data-fancybox>
+                                <img data-src="./img/reviews/aresa-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/10unr1-min.png" data-fancybox>
+                                <img data-src="./img/reviews/10unr1-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/10unr2-min.png" data-fancybox>
+                                <img data-src="./img/reviews/10unr2-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/belbizresurs-min.png" data-fancybox>
+                                <img data-src="./img/reviews/belbizresurs-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/belbud-min.png" data-fancybox>
+                                <img data-src="./img/reviews/belbud-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/citicconstr-min.png" data-fancybox>
+                                <img data-src="./img/reviews/citicconstr-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/cneec-min.png" data-fancybox>
+                                <img data-src="./img/reviews/cneec-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/divaon-min.png" data-fancybox>
+                                <img data-src="./img/reviews/divaon-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/domstroiaagent-min.png" data-fancybox>
+                                <img data-src="./img/reviews/domstroiaagent-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/farmoexpoteh-min.png" data-fancybox>
+                                <img data-src="./img/reviews/farmoexpoteh-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/unirinvest-min.png" data-fancybox>
+                                <img data-src="./img/reviews/unirinvest-min.png" alt="">
+                            </a>
+                        </div>
+                        <div class="reviews__item">
+                            <a href="./img/reviews/vilnusstroi-min.png" data-fancybox>
+                                <img data-src="./img/reviews/vilnusstroi-min.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="clients" id="clients">
+        <div class="container">
+            <p id="anchor-clients"></p>
+            <h2 class="clients__title title">Клиенты</h2>
+            <div class="clients__separator separator"></div>
+            <div class="clients__wrapper">
+                <div class="clients__item">
+                    <a href="https://airon.by/">
+                        <img data-src="./icons/iron.svg" alt="">
+                    </a>
+                </div>
+                <div class="clients__item">
+                    <a href="http://aresa-service.by/">
+                        <img data-src="./icons/aresa.png" alt="">
+                    </a>
+                </div>
+                <div class="clients__item">
+                    <a href="https://www.cici.citic.com/en/">
+                        <img data-src="./icons/citic.png" alt="">
+                    </a>
+                </div>
+                <div class="clients__item">
+                    <a href="http://spariviera.by/">
+                        <img data-src="./icons/spa-rivera.png" alt="">
+                    </a>
+                </div>
+                <div class="clients__item">
+                    <a href="http://www.vipseti.by/">
+                        <img data-src="./icons/buncetu.png" alt="">
+                    </a>
+                </div>
+                <div class="clients__item">
+                    <a href="https://www.ipgphotonics.com/">
+                        <img data-src="./icons/IPG.png" alt="">
+                    </a>
+                </div>
+                <div class="clients__item">
+                    <a href="https://domstroyagent.by/">
+                        <img data-src="./icons/dsa.png" alt="">
+                    </a>
+                </div>
+                <div class="clients__item">
+                    <a href="http://stroymonolit.by/">
+                        <img data-src="./icons/sm.png" alt="">
+                    </a>
+                </div>
+                <div class="clients__item">
+                    <a href="https://trimif.by/">
+                        <img data-src="./icons/tis.png" alt="">
+                    </a>
+                </div>
+                <div class="clients__item">
+                    <a href="http://grandhouse.by/">
+                        <img data-src="./icons/grandhouse.png" alt="">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <p id="anchor-contacts"></p>
+            <h2 class="contacts__title title">Контакты</h2>
+            <div class="contacts__separator separator"></div>
+            <div class="contacts__wrapper">
+                
+                <div class="contacts__framewrap" id="wrapMap">
+                    <div id="yamap"></div>
+                    <!-- <div id="map" style="width: 100%; height: 400px;">    
+                        <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9ae10cc03a540fc947b0d73fa203322e16997000f2e0b54d93749d243c2e7ff2&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+                    </div> -->
+                    <!-- <div class="contacts__framelock" id="frameBlock"></div> -->
+                </div>
+                <div class="contacts__item-wrapper">
+                    <div class="contacts__column contacts__column_left">
+                        <div class="contacts__item">
+                            <div class="contacts__item-header"><h4>Ответы на вопросы</h4></div>
+                            <div class="contacts__item-descr">
+                                <p>С удовольствем ответим на все ваши вопросы по телефону <a href="tel:+375173773727">8(017) 377-37-27</a>. Или просто заполните форму ниже:</p>
+                                </div>
+                        </div>
+                        <div class="contacts__form-wrapper">
+                            <form id="form" class="contacts__form">
+                                <div class="contacts__form-item">
+                                    <label for="formName" class="contacts__form-label">Имя</label>
+                                    <input id="formName" class="contacts__form-input _req" name="user_name" tabindex="1" type="text">
+                                </div>
+                                <div class="contacts__form-item">
+                                    <label for="formTel" class="contacts__form-label">Телефон</label>
+                                    <input id="formTel" class="contacts__form-input _req" name="user_tel" tabindex="2" type="tel">
+                                </div>
+                                <div class="contacts__form-item">
+                                    <label for="formEmail" class="contacts__form-label">E-mail</label>
+                                    <input id="formEmail" class="contacts__form-input _req _email" name="user_Email" tabindex="3" type="email">
+                                </div>
+                                <div class="contacts__form-item">
+                                    <label for="formMessage" class="contacts__form-label">Оставьте сообщение</label>
+                                    <textarea name="textarea" class="contacts__form-input" id="formMessage" tabindex="4"></textarea>
+                                </div>
+                                    <button class="contacts__button" id="formButton" tabindex="5" type="submit">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="contacts__column contacts__column_right">
+                        <div class="contacts__item"></div>
+                            <div class="contacts__item-header"><h4>Центральный офис</h4></div>
+                            <div class="contacts__item-descr">
+                                <p>Минск, Беларусь<br>
+                                ул. Шпилевского 60, оф. 11н<br>
+                                пн-пт с 8.30 до 17.30</p>
+                                <p>Телефон: <a href="tel:+375173773727">8(017) 377-37-27</a><br>
+                                    Факс: <a href="tel:+375173773726">8(017) 377-37-26</a><br>
+                                    Email: <a href="mailto:pto@duvr.by">pto@duvr.by</a></p>
+                            </div>
+                        <div class="contacts__item">
+                            <div class="contacts__item-header"><h4>Хотите у нас работать?</h4></div>
+                            <div class="contacts__item-descr">
+                                <p>Пожалуйста, отправьте резюме и сопроводительное письмо по адресу: <a href="mailto:pto@duvr.by">pto@duvr.by</a></p>
+                            </div>
+                        </div>
+                        <div class="contacts__separator-left separator"></div>
+                            <div class="contacts__phone"><a href="tel:+375173773727">Звоните: 8(017) 377-37-27</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__copyright">
+                    &copy; ООО «ДЮВР-Электро», 2008—2021
+                </div>
+                <div class="footer__social">
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

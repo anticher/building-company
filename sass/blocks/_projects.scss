@@ -1,0 +1,50 @@
+.projects {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &__wrapper {
+        margin-top: 50px;
+    }
+    &__slider {
+        position: relative;
+        margin: 0 auto;
+    }
+    &__slide {
+        div {
+        max-width: 800px;
+        max-height: 480px;
+        margin: 10px auto;
+            img {
+                margin: 0 auto;
+                display: block;
+                border-radius: 10px;
+                box-shadow: 0 0 10px $forth-color;
+                width: 100%;
+            }
+        }
+        p {
+            font-size: calc(24px + (26 - 24) * ((100vw - 320px) / (950 - 320)));
+            line-height: 150%;
+            text-align: center;
+            color: $forth-color;
+        }
+    }
+}
+
+@media (max-width:992px){
+    .projects {
+        &__slider {
+            width: 100%;
+        }
+        &__slide div {
+            margin: 10px;
+        }
+    }
+}
+
+@media (max-width:767px){
+    .projects {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+}

@@ -1,0 +1,7 @@
+.title {
+    color: $second-color;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: calc(50px + (52 - 50) * ((100vw - 320px) / (950 - 320)));
+    font-weight: 300;
+}
